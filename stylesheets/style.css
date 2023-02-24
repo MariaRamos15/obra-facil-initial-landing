@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+height: 100vh;
+background-color: whitesmoke
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-page{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   margin: 15%; left: 30px;
+   align-items: center;
+}
+
+
+
+
+ h2, h3{
+    font-family: Arial, Helvetica, sans-serif
+ }
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+article{
+display: flex;
+flex-direction: column; 
+width: 50%;
+}
+
+    input{
+        margin-top: 20px;
+        height: 20px;
+        padding: 15px;
+        border: none;
+        font-size: 15px;
+    }
+
+form [type="text"]{
+    width: 200%;
+    height: 50%;
+    background-color: rgb(177, 177, 177);
+    color: black;
+    font-weight: bold;
+}
+
+
+ nav ul li{
+    display: inline-block;
+}
+
+
+ nav ul h1{
+    width: 500px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+ main article h2{
+    width: 500px;
+    height: 30px;
+}
+
+ main article p{
+    width: 300px;
+    height: 50px;
+}
+
+
+  nav ul{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+form [type="submit"]{
+    width: 200%;
+    height: 50%;
+    background-color: rgb(34, 118, 34);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+header{
+display: flex;
+justify-content: space-around;
+background-color:  rgb(177, 177, 177);
+width: 100%;
+height: 10%;
+padding: 10px;
+}
+
+nav h1, nav ul{
+    display: inline-block;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ nav ul{
+     margin: 0;
+     padding: 0;
+ }
+
+main article h3{
+    width: 350px;
+    height: 30px;
+}
+
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+ 
