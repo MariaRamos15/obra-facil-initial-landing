@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-        <title>Obras Fácil</title>
-        <link rel="stylesheet" href="stylesheets/style.css"/>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="./images/logo.png" alt="logo">   
+    <head>
+       <title>Obra Fácil</title>
+
+       <!--Informações para mecanismos de busca-->
+       <meta charset="utf-8/">
+       <meta name="autor" content="Instituto Evoluir"/>
+       <meta name="description" content="Landing Pge para a construtora Obra Fácil, especializada em obras populares"/>
+       
+       <!-- Configurações de escala e reponsavidade -->
+       <meta name="viewport" content="width=device-width, initial-scale=1, maximus-scale=1"/>
+
+      <!-- Style Sheets CSS-->
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+      <!--Favicon-->
+      <link rel="shorcut icon" href="images/favicon.png"/>
+    </head>
+       <body>
+            <!-- Cabeçalho da página-->
+            <header>
+                <div class="logo">
+        <img src="images/logo.png" alt="obra facil" title="obra facil"/>
+                </div>
+             <h3>Siga Conectado</h3>
+                <div class="social">
+               </div>               
+            </header>
+            <!--Conteúdo principal-->
+            <main>
+        <div class="content">
+            <div class="video-area">
+                <h2>Seu lar reformado, energia reformada.</h2>
+                <p class="subtitle">Tornar sua casa uma demonstração de sua personalidade é nossa paixão.</p>
+                <iframe width="445" height="250" src="https://www.youtube.com/embed/kcCoNengrHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="form-area">
+                <h2>OBRAS RÁPIDAS E BARATAS!</h2>
+                <p class="subtitle">Somos especialistas em obras, reformas e construção de sonhos.</p>
+                <form name="lead" action="#" method="post">
+                <input type="text" name="name" placeholder="Seu nome completo"] maxlength="3" required/>
+                <input type="tel" name="phone" placeholder="Seu número de telefone" required/>
+                <input type="text" name="email" placeholder="Seu email" required/>
+                <button id="submite-button">Fale Conosco</button>
+                </form>  
+                <span class="notes"> *Obs.: entraremos em contato em até 24 horas.</span>
+            </div>
         </div>
-        <nav class="redes sociais">
-        <h1>Siga conectado</h1>
-            <ul>
-          <li><a href="#"><img src="./images/social_media_icons/facebook.png" alt="facebook"></a></li>      
-          <li><a href="#"><img src="./images/social_media_icons/twitter.png" alt="twitter"></a></li>
-          <li><a href="#"><img src="./images/social_media_icons/yt.png" alt="yt"></a></li>
-          <li><a href="#"><img src="./images/social_media_icons/instagram.png" alt="instagram"></a></li>
-        </ul>
-        </nav>
-    </header>
-    <main>
-        <article class="introducao">
-            <h2>Seu lar reformado, energia renovada</h2>
-            <p>
-                Tornar  sua casa uma demonstração  da sua personalidade é nossa paixão.
-            </p>
-        <iframe width="445" height="250" src="https://www.youtube.com/embed/kcCoNengrHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </article>
-        <form>
-    <article class="formulario-page">
-    <h3>OBRAS RÁPIDAS E BARATAS!</h3>
-    <p>     
-Somos especialistas em obras, reformas e construção de sonhos.
-    </p>
-    <input type="text" placeholder="Seu nome completo">
-    <input type="text" placeholder="Seu número de telefone">
-    <input type="text" placeholder="Seu e-mail">
-    <input type="submit" value="Fale conosco">
-    </article>
-</form> 
-</id>
     </main>
-</body>
+
+            <!-- Rodapé da página-->
+            <footer>
+                <span>Todos os direitos reservados Copyright &copy; 2023 Obras Facil</span>
+            </footer>
+        </body>
 </html>
