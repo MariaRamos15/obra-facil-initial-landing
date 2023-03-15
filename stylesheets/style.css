@@ -33,27 +33,34 @@ h2{
   line-height: 34px;
 }
 
-h3{
-  color: gray;
-  font-size: 80%;
+span{
+
+align-items: center;
 }
 
-header .icon-Youtube{
-  background-image: url(../images/social_media_icons/yt.png);
-  }
 
-header .icon-Twitter{
-  background-image: url(../images/social_media_icons/twitter.png);
+li{
+display: flex0
+;  display: inline-block;
+ width: 50px; 
+text-align: right;
+
 }
 
-header .icon-Facebook{
-  background-image: url(../images/social_media_icons/facebook.png);
-  }
-  
- header .icon-Instagram{
-    background-image: url(../images/social_media_icons/instagram.png);
-    }
+header .social a{
+  float: right;
+  width: 32px;
+  width: 150px;
+  margin-top: 5px;
+}
     
+ #Siga-Conectado{
+color: gray;
+float: right;
+font-size: 14px;
+margin-top: 15px;
+margin-right: 25px;
+ }
 
 
 input{
